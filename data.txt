@@ -1,0 +1,4 @@
+assert|Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.|https://bugs.launchpad.net/juniperopenstack/+bug/1456193|https://bugs.launchpad.net/heat/+bug/1397883|https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement
+exec|Use of exec detected. The Python docs succinctly describe why the use of exec is risky|https://docs.python.org/2/reference/simple_stmts.html#exec|https://docs.python.org/3/library/functions.html#exec|https://www.python.org/dev/peps/pep-0551/#background|https://www.python.org/dev/peps/pep-0578/#suggested-audit-hook-locations
+.chmod|Probable insecure usage of temp file/directory.|https://security.openstack.org/guidelines/dg_apply-restrictive-file-permissions.html|https://en.wikipedia.org/wiki/File_system_permissions|https://security.openstack.org
+.bind(|Possible binding to all interfaces.|https://nvd.nist.gov/vuln/detail/CVE-2018-1281
